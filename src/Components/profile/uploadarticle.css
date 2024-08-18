@@ -1,0 +1,32 @@
+.uploadarticle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.uploadarticle .headiv{
+    border: 1px solid #145369;
+    width: 100%;
+    padding: auto;
+}
+.uploadarticle .form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 20px;
+}
+.uploadarticle .form .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 10px;
+}
+
+.uploadarticle .form .form-group label{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #145369;
+}

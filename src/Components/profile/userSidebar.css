@@ -1,0 +1,33 @@
+.userSidebar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.userSidebar .s1,.userSidebar .s2{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    padding: 20px;
+}
+.userSidebar svg{
+    height: 30px;
+    width: 30px;
+    color: gray;
+}
+.userSidebar .s1:hover{
+    background-color: rgb(246,246,246);
+    border-radius: 5px;
+    cursor: pointer;
+    color: grey;
+}
+.userSidebar .s2{
+    background-color: rgb(246,246,246);
+    border-radius: 5px;
+    cursor: pointer;
+    color: grey;
+}
+.stylenone{
+    text-decoration: none;
+    color: inherit;
+}

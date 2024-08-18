@@ -1,0 +1,119 @@
+
+.project-color{
+    color: #145369;
+  }
+  .pdf-div{
+    padding: 20px;
+    background-color: #dedede;
+  }
+  .pdf-details{
+    display: flex;
+    gap: 20%;
+  }
+  .pdf-container{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 60%;
+    height: 100%;
+  }
+  .mainhead1{
+    color: #145369;
+    font-size: 30px;
+    padding: 5px 10px;
+    font-weight: 600;
+    margin: 10px;
+  }
+  .search-result{
+    width: 100%;
+    max-height: 200px;
+    overflow: auto;
+   
+    margin: 5px;
+  }
+  .searchbar{
+    display: flex;
+  }
+  .modal-wrapper{
+    position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+  }
+  .modal-container{
+    border: 2px solid white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 25rem;
+    min-height: 10rem;
+    background-color: #fff;
+  }
+  .modal-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    justify-content: center;
+
+  }
+  .mainbutton{
+    background:none;
+    border: 1px solid #145369;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem;
+    color: #145369;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  .mainbutton:hover{
+    background: #145369;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+  }
+  .navbar{
+    padding: 0;
+    background:black;
+    font-size: 20px;
+   }
+   .nav-link{
+    color: white;
+    font-size: 18px;
+   }
+   .navbar .navbar-nav .nav-link{
+    padding: 1em;
+   }
+   .navbar .navbar-nav .nav-item{
+    position: relative;
+   }
+  
+   .navbar .navbar-nav .nav-item::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color:#1a1a1a ;
+    width: 0;
+    margin: 0 auto;
+    height: 4px;
+    transition: all .5s;
+   }
+   .navbar .navbar-nav .nav-item:hover::after{
+    width: 100%;
+   }
+   .navbar-dark .navbar-nav {
+    color: rgb(25, 24, 24);
+  }
+  .nav-link{
+    color: rgb(25, 24, 24);
+    font-weight: "bold";
+  }
+  
+  .navbar-dark .navbar-brand {
+    color: rgb(25, 24, 24);
+  }
